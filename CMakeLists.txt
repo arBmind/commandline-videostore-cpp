@@ -8,7 +8,7 @@ enable_testing()
 add_test(MainTest Test)
 
 
-set(PROJ_SOURCES run.h run.cpp)
+set(PROJ_SOURCES run.h run.cpp Rental.cpp Rental.h Movie.h)
 add_library(StoreLib ${PROJ_SOURCES})
 
 add_executable(commandline_videostore_cpp main.cpp)
